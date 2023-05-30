@@ -1,0 +1,20 @@
+{
+	"node": "n8n-nodes-base.NSRestlet",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_1529417663.html"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4618431823.html"
+			}
+		]
+	}
+}
