@@ -1,6 +1,10 @@
 {
   "name": "n8n-nodes-nsrestlet",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "",
   "keywords": [
     "n8n-community-node-package"
