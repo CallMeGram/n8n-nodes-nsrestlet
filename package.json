@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/SquareGrove/n8n-nodes-nsrestlet.git"
   },
   "description": "",
   "keywords": [
