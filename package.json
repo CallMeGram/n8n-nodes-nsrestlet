@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UpliftDesk/n8n-nodes-nsrestlet.git"
+    "url": "https://github.com/SquareGrove/n8n-nodes-nsrestlet.git"
   },
   "main": "index.js",
   "scripts": {
