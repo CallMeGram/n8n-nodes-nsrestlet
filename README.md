@@ -2,7 +2,7 @@
 
 # n8n-nodes-nsrestlet
 
-This is an n8n community node that gives users an easy way to set up HTTP requests to a Netsuite restlet in your n8n workflows. Please be aware that this is not just an API call that has clearly defined documentation associated with it. You will need to build the connection on the Netsuite end as well and define what functions your restlet will do. We have a sample script referenced below in the prerequisites for you to use as a starting point.
+This is an n8n community node that gives users an easy way to send HTTP requests to a Netsuite restlet in your n8n workflows. Please be aware that this is not just an API call that has clearly defined documentation associated with it. You will need to build the connection on the Netsuite end as well and define what functions your restlet will do. We have a sample script referenced below in the prerequisites for you to use as a starting point.
 
 A Netsuite restlet is a SuiteScript that you make available for other applications to call, either from an external application or from within NetSuite.
 
@@ -16,7 +16,8 @@ A Netsuite restlet is a SuiteScript that you make available for other applicatio
 
 ## Installation
 
-[Installation instructions for installing/deleting/updating community nodes your n8n instance can be found here.](https://docs.n8n.io/integrations/community-nodes/installation/) Our npm package name is n8n-nodes-nsrestlet.
+[Installation instructions for installing/deleting/updating community nodes your n8n instance can be found here.](https://docs.n8n.io/integrations/community-nodes/installation/) Our npm package name is @squaregrove/n8n-nodes-nsrestlet
+.
 
 ## Credentials
 
@@ -40,11 +41,11 @@ Set up credentials in Netsuite using the following steps
 
     IMPORTANT - After you click Save, make sure you take note of the Token ID and Token Secret. This is the only time you will be able to get those, so if you don't copy them down then a new access token will need to be generated. You will use these later on in n8n.
 
-3. [Set up a restlet script record](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4618431823.html) in your Netsuite environment. 
+3. [Set up a restlet script record](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4618431823.html) 
 
     * Go to Customization > Scripting > Scripts > New, and then select RESTlet as the script type.
     
-    * Enter a name and select the script file. [An example starter script can be found here.](https://github.com/UpliftDesk/n8n-nodes-nsrestlet/blob/master/n8n_restlet_sample.js)
+    * Enter a name and select the script file. [An example starter script can be found here.](https://github.com/SquareGrove/n8n-nodes-nsrestlet/blob/main/n8n_restlet_sample.js)
 
     * Copy-paste the script's function names in their respective places depending on the method used to call the function (i.e. - handleGetRequest, handlePostRequest, handlePutRequest, handleDeleteRequest) and click Save.
 
@@ -77,4 +78,4 @@ This node has been installed/tested on the most recent production release of n8n
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* If you have any issues using the custom node, or would like a quote from our professional services team to assist with what you are trying to build in Netsuite, please reach out to us at <professionalservices@upliftdesk.com> with a brief description of what you are looking to accomplish, and a member of our team will get back to you. 
+* If you have any issues using the custom node, or would like a quote from our professional services team to assist with what you are trying to build in Netsuite, please reach out to us at <professionalservices@squaregrove.com> with a brief description of what you are looking to accomplish, and a member of our team will get back to you. 
