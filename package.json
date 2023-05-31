@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-nsrestlet",
+  "name": "n8n-nodes-nsrestlet-test",
   "version": "0.1.1",
   "publishConfig": {
     "access": "public"
