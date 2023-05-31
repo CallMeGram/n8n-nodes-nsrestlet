@@ -2,8 +2,7 @@
   "name": "n8n-nodes-nsrestlet",
   "version": "0.1.0",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/SquareGrove/n8n-nodes-nsrestlet.git"
+    "access": "public"
   },
   "description": "This package allows for a \"single-node\" method of connecting your n8n instance with your NetSuite Restlet",
   "keywords": [
