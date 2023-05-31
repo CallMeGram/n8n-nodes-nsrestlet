@@ -6,14 +6,14 @@ import crypto from 'crypto';
 
 export class NSRestlet implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'NetSuite Restlet API',
+		displayName: 'NetSuite Restlet',
 		name: 'NSRestlet',
-		description: '',
+		description: 'This package allows for a \"single-node\" method of connecting your n8n instance with your NetSuite Restlet',
 		icon: 'file:NSRestlet.svg',
 		group: ['transform'],
 		version: 1,
 		defaults: {
-			name: 'NetSuite Restlet API',
+			name: 'NetSuite Restlet',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
