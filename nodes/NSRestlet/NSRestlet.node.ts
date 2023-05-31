@@ -19,7 +19,7 @@ export class NSRestlet implements INodeType {
 		outputs: ['main'],
 		credentials: [
 			{
-				name: 'NSRestletCreds',
+				name: 'ns-restletApi',
 				required: true,
 			},
 		],
@@ -55,7 +55,7 @@ export class NSRestlet implements INodeType {
 						value: 'DELETE',
 					}
 				],
-				default: ''
+				default: 'POST'
 			},
 			{
 				displayName: 'Query Parameters',
@@ -114,7 +114,7 @@ export class NSRestlet implements INodeType {
 	};
 
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
-		const credentials = await this.getCredentials('NSRestletCreds');
+		const credentials = await this.getCredentials('ns-restletApi');
 		const consumer_key = credentials.consumer_key as string;
 		const consumer_secret = credentials.consumer_secret as string;
 		const token_id = credentials.token_id as string;

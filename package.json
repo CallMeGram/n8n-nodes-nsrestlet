@@ -5,7 +5,7 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com/SquareGrove/n8n-nodes-nsrestlet.git"
   },
-  "description": "",
+  "description": "This package allows for a \"single-node\" method of connecting your n8n instance with your NetSuite Restlet",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -34,7 +34,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/NSRestletCreds.credentials.js"
+      "dist/credentials/NSRestletApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/NSRestlet/NSRestlet.node.js"
