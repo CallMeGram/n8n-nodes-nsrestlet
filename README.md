@@ -2,10 +2,6 @@
 
 # n8n-nodes-nsrestlet
 
-This is an n8n community node that gives users an easy way to send HTTP requests to a Netsuite restlet in your n8n workflows. Please be aware that this is not just an API call that has clearly defined documentation associated with it. You will need to build the connection on the Netsuite end as well and define what functions your restlet will do. We have a sample script referenced below in the prerequisites for you to use as a starting point.
-
-A Netsuite restlet is a SuiteScript that you make available for other applications to call, either from an external application or from within NetSuite.
-
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
 [Installation](#installation)  
@@ -78,4 +74,3 @@ This node has been installed/tested on the most recent production release of n8n
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* If you have any issues using the custom node, or would like a quote from our professional services team to assist with what you are trying to build in Netsuite, please reach out to us at <professionalservices@squaregrove.com> with a brief description of what you are looking to accomplish, and a member of our team will get back to you. 
