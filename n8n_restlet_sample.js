@@ -64,8 +64,8 @@ define(['N/https', 'N/runtime'], function (https, runtime) {
 
 	return {
 		get: handleGetRequest,
-        post: handlePostRequest,
-        put: handlePutRequest,
-        delete: handleDeleteRequest
+		post: handlePostRequest,
+		put: handlePutRequest,
+		delete: handleDeleteRequest
 	};
 });
