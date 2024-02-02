@@ -1,6 +1,6 @@
 {
   "name": "@squaregrove/n8n-nodes-nsrestlet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publishConfig": {
     "access": "public"
   },
@@ -11,8 +11,8 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "Caleb Moore & Jarett McMahon",
-    "email": "professionalservices@squaregrove.com"
+    "name": "Uplift Desk Development Team",
+    "email": "it@upliftdesk.com"
   },
   "repository": {
     "type": "git",
