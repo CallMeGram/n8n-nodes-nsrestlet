@@ -1,5 +1,5 @@
 {
-  "name": "@squaregrove/n8n-nodes-nsrestlet",
+  "name": "n8n-nodes-nsrestlet",
   "version": "0.1.2",
   "publishConfig": {
     "access": "public"
@@ -11,12 +11,12 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "Uplift Desk Development Team",
-    "email": "it@upliftdesk.com"
+    "name": "CallMeGram",
+    "email": "jarettmcmahon@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SquareGrove/n8n-nodes-nsrestlet.git"
+    "url": "https://github.com/CallMeGram/n8n-nodes-nsrestlet.git"
   },
   "main": "index.js",
   "scripts": {
