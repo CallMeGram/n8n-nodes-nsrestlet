@@ -174,6 +174,7 @@ export class NSRestlet implements INodeType {
 
 		const headers = {
 			'Accept': 'application/json',
+			'Prefer': 'transient',
 			'Authorization': oauth.toHeader(oauth.authorize(authRequest, tokenData)).Authorization
 		};
 
